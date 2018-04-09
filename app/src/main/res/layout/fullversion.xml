@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/main"
+    android:gravity="bottom|center_horizontal"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/update"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/fullversionbtn" />
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="60dp"
+        android:src="@drawable/backbutton" />
+
+</LinearLayout>
